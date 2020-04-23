@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  </head>
+  <script>
+    var page = "home";
+  </script>
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="./img/sdg-wheel.png" />#SDG17</a>
+      <nav class="main-nav">
+        <a href="#">Learn</a>
+        <a href="#">Donate</a>
+        <a href="#">Subscribe</a>
+      </nav>
+    </header>
+    <section class="container" id="content">
+      <div class="content" id="home">
+        <div class="filters">
+          <div class="filter">
+            <label for="countryFilter">Select Country</label>
+            <select name="countryFilter" id="countryFilter">
+              <option value="IN">India</option>
+              <option value="AUS">Australia</option>
+              <option value="US">United States</option>
+              <option value="UK">United Kingdom</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid" id="events">
+          <div class="card" data-country="IN" data-title="education">
+            <div class="media">
+              <img alt="education" src="./img/education.jpg" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-01.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-02.png" />
+              </div>
+              education
+            </div>
+            <div class="action">
+              <button class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+
+          <div class="card" data-country="UK" data-title="environment">
+            <div class="media">
+              <img alt="climate" src="./img/environment.jpeg" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-01.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-02.png" />
+              </div>
+              Do a local clean up, Reuse disposed items
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+
+          <div class="card" data-country="US" data-title="sdg">
+            <div class="media">
+              <img alt="sdg" src="./img/sdg.png" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-01.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-02.png" />
+              </div>
+              sdg
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+          <div class="card" data-country="US" data-title="environment">
+            <div class="media">
+              <img alt="environment" src="./img/planting.jpg" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-01.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-02.png" />
+              </div>
+              planting
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+          <div class="card" data-country="AU" data-title="food">
+            <div class="media">
+              <img alt="food" src="./img/foodcrisis.jpg" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-01.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-02.png" />
+              </div>
+              providing seeds, small irrigation systems and technical support,
+              including training on crop diversification and improved farming
+              techniques.
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content" id="learn">
+        Quiz
+      </div>
+      <div class="content" id="donate">
+        donate
+      </div>
+      <div class="content" id="subscribe">
+        contact
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
